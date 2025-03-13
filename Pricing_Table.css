@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 30px;
+}
+
+.container h1{
+    margin: 15px;
+}
+
+.container h2{
+    margin-bottom: 5px;
+}
+
+.container p{
+    margin-bottom: 5px;
+}
+
+.container .p1{
+    color: blue;
+}
+
+.container button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(102, 102, 202);
+    color: white;
+    border: 0px solid ;
+    border-radius: 5px;
+}
+
+.container > div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px 1px;
+}
+
+.container > div:hover{
+    transform: scale(1.1) ;
+    transition: all 0.5s ease-in;
+}

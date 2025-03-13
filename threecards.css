@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer .box{
+    /* background-color: chartreuse; */
+    width: 300px;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    border-radius: 20px;
+}
+.outer .box:hover{
+    transition: all ease-in-out 0.6s;
+    transform: scale(1.1);
+}
+.outer .box img{
+    height: 80px;
+}
+.outer .box h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.outer > .box > p{
+    font-size: 17px;
+    word-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.box > .btn{
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.box > .btn:active{
+    color: chartreuse;
+}
+
+/* #btn2{
+    color: white;
+}
+ #btn1:active,#btn3:active{
+    color: chartreuse;
+ }
+ #btn2:active{
+    color: white;
+ } */
+
+#box1, #box3{
+    background-color: white;
+}
+#box2{
+    background-color: chartreuse;
+    /* background-color: rgba(252, 47, 150, 0.911); */
+    /* color: white; */
+}

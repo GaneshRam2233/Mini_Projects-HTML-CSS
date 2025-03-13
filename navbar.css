@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav */
+.navbar{
+    background-color: aqua;
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+/* left */
+
+.logo{
+    margin-left: 10px;
+    /* background-color: cadetblue; */
+    padding: 10px;
+    border-radius: 10px 25px 10px 25px;
+}
+.logo:hover{
+    background-color: rgb(191, 252, 252);
+}
+.logo span{
+    color: rgb(202, 3, 3);
+}
+
+/* center */
+
+.center > ul{
+    /* background-color: chocolate; */
+    list-style: none;
+    display: flex;
+}
+.center li{
+    /* background-color: chartreuse; */
+    margin-right: 25px;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.center a{
+    text-decoration: none;
+    color: black;
+}
+.center li:hover{
+    background-color: rgb(175, 253, 253);
+}
+
+/* right */
+
+.right button{
+    padding: 5px 10px 5px 10px;
+    border-radius: 9px;
+    /* border: 2px solid black; */
+    font-size: 18px;
+}
+.right button:hover{
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+.right > button:active{
+    /* transition: all ease-in 0.9; */
+    /* background-color: rgb(109, 109, 240); */
+    transform: scale(0.9);
+}
+.right .btn1{
+    background-color: rgb(2, 2, 177);
+    color: white;
+}
+.right .btn2{
+    color: rgb(2, 2, 177);
+    margin-right: 15px;
+}
